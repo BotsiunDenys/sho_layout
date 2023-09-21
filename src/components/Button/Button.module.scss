@@ -4,6 +4,7 @@
   background-color: transparent;
   width: fit-content;
   transition: 0.3s all ease-in-out;
+  outline: none;
   cursor: pointer;
   &:hover {
     transform: scale(1.2);
