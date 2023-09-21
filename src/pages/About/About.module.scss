@@ -1,0 +1,38 @@
+.wrapper {
+  margin: 200px 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 986px;
+  }
+  .article {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .title {
+    font-family: "Italianno", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 1px solid #fcac45;
+    width: fit-content;
+  }
+  .text_content {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 437px;
+  }
+  .image {
+    background-image: url("../../img/about.png");
+    width: 432.5px;
+    height: 363px;
+  }
+}

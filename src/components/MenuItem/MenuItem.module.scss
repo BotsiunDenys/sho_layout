@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 20px 0;
+  .image {
+    width: 369px;
+    height: 358px;
+  }
+  .text_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    font-family: "Italianno", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .desc {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 495px;
+    text-align: justify;
+  }
+  .price {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+.container + .container {
+  border-top: 1px solid #fcac45;
+}

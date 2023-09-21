@@ -1,0 +1,24 @@
+.hero {
+  background: url("../../img/Hero.png") center no-repeat;
+  width: 100%;
+  min-height: 485px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  .hero_title {
+    font-family: "Italianno", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .hero_subTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

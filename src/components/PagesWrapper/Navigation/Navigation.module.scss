@@ -1,0 +1,27 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 14px 0 69px 0;
+  .list {
+    display: flex;
+    gap: 90px;
+    list-style-type: none;
+  }
+  .link {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 5px;
+    text-decoration: none;
+    &:focus {
+      border-bottom: 1px solid #fcac45;
+    }
+    &:hover {
+      border-bottom: 1px solid #fcac45;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 0;
+  .content {
+    width: 986px;
+  }
+  .title {
+    font-family: 'Italianno', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .button_container {
+    margin: 80px 0;
+    text-align: center;
+  }
+}
