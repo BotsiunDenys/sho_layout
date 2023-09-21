@@ -1,5 +1,7 @@
 .hero {
-  background: url("../../img/Hero.png") center no-repeat;
+  background-image: url("../../img/Hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   min-height: 485px;
   display: flex;
